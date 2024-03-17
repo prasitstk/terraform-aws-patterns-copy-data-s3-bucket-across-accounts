@@ -1,0 +1,22 @@
+{
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "secrets": {
+    "AWS_ACCESS_KEY_ID": {
+      "description": "AWS access key associated with an IAM user or role.",
+      "documentationUrl": "https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-envvars.html#envvars-list"
+    },
+    "AWS_SECRET_ACCESS_KEY": {
+      "description": "the secret key associated with the access key (AWS_ACCESS_KEY_ID). This is essentially the password for that access key.",
+      "documentationUrl": "https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-envvars.html#envvars-list"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "hashicorp.terraform"
+      ]
+    }
+  }
+}
