@@ -50,8 +50,6 @@ terraform apply /tmp/tfplan
 
 ## Verification
 
-<TODO>
-
 Run the following commands to set up environment variables for AWS CLI with AWS access keys of the newly created *temp-user* IAM User of the target account:
 
 ```sh
