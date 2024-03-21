@@ -14,8 +14,13 @@
   },
   "customizations": {
     "vscode": {
+      "settings": {
+        "editor.tabSize": 2,
+        "hediet.vscode-drawio.theme": "Kennedy"
+      },
       "extensions": [
-        "hashicorp.terraform"
+        "hashicorp.terraform",
+        "hediet.vscode-drawio"
       ]
     }
   }
